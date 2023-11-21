@@ -1,0 +1,50 @@
+body{
+    background-image: url('bg.jpg');
+}
+.container {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    padding: 70px;
+    border: 3px solid rgb(107, 45, 223);
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgba(214, 174, 174, 0.448);
+    display: inline-block;
+}
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: none;
+}
+
+th,
+td {
+    color: white;
+    border: 3px solid #efe5e5;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    font-weight: bold;
+}
+tbody{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    background-color: black;
+
+}
